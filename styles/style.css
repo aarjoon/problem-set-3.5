@@ -1,3 +1,59 @@
-background-color {
-  color: black;
+body {
+  background-color: white;
+}
+
+a {
+  color: red;
+}
+
+p {
+  font-family: serif;
+}
+
+a[href$=".html"] {
+  border-color: ;
+}
+
+* {
+
+}
+
+thead {
+  text-align: left;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+ul {
+  background-color: white;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.carshortdescriptions {
+  text-align: center;
+}
+
+#teslahomepage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+    border: 0.5px solid black;
+}
+
+footer {
+  text-align: center;
 }
