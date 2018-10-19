@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: black;
 }
 
 a {
@@ -7,7 +7,7 @@ a {
 }
 
 p {
-  font-family: serif;
+  font-family: "Palatino Linotype";
 }
 
 a[href$=".html"] {
@@ -15,19 +15,26 @@ a[href$=".html"] {
 }
 
 * {
-
+  color: white;
 }
 
 thead {
-  text-align: left;
+  text-align: center;
+  font-size: 18px;
+}
+
+table {
+  text-align: center;
 }
 
 tfoot {
   font-weight: bold;
+  font-size: 18px;
+  text-align: center
 }
 
 ul {
-  background-color: white;
+  background-color: black;
 }
 
 h1 {
@@ -44,10 +51,27 @@ h2 {
   text-align: center;
 }
 
-#teslahomepage {
+#homepagepic {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 3px solid white;
+}
+
+#modelspic {
+  border: 3px solid white;
+}
+
+#modelxpic {
+  border: 3px solid white;
+}
+
+#model3pic {
+  border: 3px solid white;
+}
+
+a:hover {
+  color: blue;
 }
 
 table, th, td {
